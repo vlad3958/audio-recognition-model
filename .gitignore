@@ -1,0 +1,73 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter/IPython checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug
+logs/
+*.log
+
+# Model checkpoints and weights (tracked now: remove directory ignore)
+# Uncomment if you later want to ignore large weight files
+# checkpoints/
+# *.h5
+# *.keras
+# *.ckpt*
+
+# TensorBoard summaries
+runs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.code-workspace
+
+# Data that should not be versioned (comment out if you want it)
+# ESC-50-master/audio/
+# ESC-50-master/meta/esc50.csv
+
+# Generated spectrograms or features
+features/
+
+# Package build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# MyPy / Pyright / Pylance caches
+.mypy_cache/
+.pyrightcache/
+.pytype/
+
+# Coverage / test
+.coverage
+htmlcov/
+.coverage.*
+.cache/
+.pytest_cache/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Azure / cloud local state
+.azure/
+
+# Lock files (optional)
+Pipfile.lock
+poetry.lock
