@@ -71,3 +71,7 @@ htmlcov/
 # Lock files (optional)
 Pipfile.lock
 poetry.lock
+
+ESC-50-master/
+cv-corpus-23.0-2025-09-05/
+music_wav/
